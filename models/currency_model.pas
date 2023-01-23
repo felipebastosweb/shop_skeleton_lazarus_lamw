@@ -1,4 +1,4 @@
-unit brand_model;
+unit currency_model;
 
 {$mode delphi}
 
@@ -8,15 +8,11 @@ uses
   Classes, SysUtils;
 
 type
-  TBrand = class
+  TCurrency = class 
     Id : Integer;
     Key : string; // key in database in server
-    Name : string;
-    Email : string;
-    Telephone : string;
-    Site : string;
+    MoneyName : string;
   end;
-
 
 implementation
 
