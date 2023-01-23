@@ -1,4 +1,4 @@
-unit purchase_model;
+unit purchase_model, shop_model, supplier_model, currency_model;
 
 {$mode delphi}
 
@@ -12,7 +12,9 @@ type
     Id : Integer;
     Key : string; // key in database in server
     Shop_Id : Integer;
-    Supplier_Id : Integer;
+    Supplier_Id : Integer;  
+    Total : Integer;   
+    Currency_Id : Integer;
     Criation_Date : string;
   end;
 
