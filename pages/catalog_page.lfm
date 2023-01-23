@@ -1,0 +1,42 @@
+object CatalogPage: TCatalogPage
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  Enabled = True
+  Left = 284
+  Top = 27
+  Width = 320
+  Height = 685
+  Text = 'CatalogPage'
+  ActivityMode = actRecyclable
+  BackgroundColor = colbrDefault
+  ActionBarTitle = abtDefault
+  AnimationDurationIn = 1500
+  AnimationDurationOut = 1500
+  AnimationMode = animNone
+  object ScrollView1: jScrollView
+    MarginLeft = 0
+    MarginTop = 0
+    MarginRight = 0
+    MarginBottom = 0
+    Enabled = True
+    Left = 0
+    Top = 0
+    Width = 320
+    Height = 685
+    Visible = True
+    PosRelativeToAnchor = []
+    PosRelativeToParent = [rpTop, rpCenterHorizontal]
+    LayoutParamWidth = lpMatchParent
+    LayoutParamHeight = lpMatchParent
+    InnerLayout = ilRelative
+    FillViewportEnabled = False
+    ScrollSize = 800
+    BackgroundColor = colbrDefault
+  end
+  object ActionBarTab1: jActionBarTab
+    Left = 39
+    Top = 43
+  end
+end

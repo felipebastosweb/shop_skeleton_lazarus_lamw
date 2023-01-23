@@ -1,0 +1,18 @@
+object SupplierCreatePage: TSupplierCreatePage
+  MarginLeft = 0
+  MarginTop = 0
+  MarginRight = 0
+  MarginBottom = 0
+  Enabled = True
+  Left = 284
+  Top = 27
+  Width = 320
+  Height = 400
+  Text = 'SupplierCreatePage'
+  ActivityMode = actRecyclable
+  BackgroundColor = colbrDefault
+  ActionBarTitle = abtDefault
+  AnimationDurationIn = 1500
+  AnimationDurationOut = 1500
+  AnimationMode = animNone
+end
